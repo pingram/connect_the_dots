@@ -1,10 +1,8 @@
 Rails.application.routes.draw do
-  get 'responses/index'
+  # get 'responses/index'
 
   root to: 'static_pages#home'
 
-  get 'questions/:id',    to: 'questions#show'
-  get 'questions/search', to: 'questions#search'
-
-  get 'questions/:id/responses', to: 'responses#index'
+  get 'topics/:id',               to: 'topics#show'
+  get 'topics/:id/questions/:id', to: 'questions#show'
 end
