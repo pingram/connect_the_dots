@@ -3,13 +3,19 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 #home {
+  .logo {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 8%;
+    img {
+      height: 255px;
+      width: 500px;
+    }
+  }
   .search-wrapper {
-    margin-top: 15%;
+    // margin-top: 5%;
     .search-prompt {
       margin-bottom: 20px;
-      h1 {
-        // text-align: center;
-      }
     }
     form {
       input {
