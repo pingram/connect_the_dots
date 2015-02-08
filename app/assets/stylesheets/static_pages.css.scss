@@ -4,16 +4,15 @@
 
 #home {
   .logo {
-    width: 50%;
+    width: 500px;
     margin: 0 auto;
     margin-top: 8%;
     img {
-      height: 255px;
       width: 500px;
+      height: auto;
     }
   }
   .search-wrapper {
-    // margin-top: 5%;
     .search-prompt {
       margin-bottom: 20px;
     }
