@@ -1,3 +1,41 @@
 // Place all the styles related to the topics controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#topic-show {
+  .main {
+    margin-top: 30px;
+    .prerequisites {
+      border: solid 1px black;
+      h2 {
+        margin-bottom: 50px;
+      }
+      h4 {
+        margin-bottom: 40px;
+      }
+    }
+    .common-questions {
+      border: solid 1px black;
+      h2 {
+        margin-bottom: 50px;
+      }
+      .question {
+        min-height: 30px;
+        margin-bottom: 10px;
+        .glyphicon {
+          font-size: 30px;
+        }
+        .upvote-count {
+          margin-top: 5px;
+          font-size: 16px;
+          text-align: center;
+        }
+        h3 {
+          margin-top: 0px;
+        }
+
+      }
+    }
+  }
+
+}
