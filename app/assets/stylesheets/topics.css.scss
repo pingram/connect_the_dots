@@ -3,10 +3,18 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 #topic-show {
+  title {
+    margin-top: 30px;
+    span {
+      font-weight: bold;
+    }
+  }
+
   .main {
     margin-top: 30px;
     .prerequisites {
-      border: solid 1px black;
+      border-top: solid 1px black;
+      border-right: solid 1px black;
       h2 {
         margin-bottom: 50px;
       }
@@ -15,7 +23,7 @@
       }
     }
     .common-questions {
-      border: solid 1px black;
+      border-top: solid 1px black;
       h2 {
         margin-bottom: 50px;
       }

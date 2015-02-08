@@ -1,3 +1,41 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#question-show {
+  .title {
+    margin-top: 30px;
+    span {
+      font-weight: bold;
+    }
+  }
+  .main {
+    margin-top: 30px;
+
+    .common-questions {
+      h2 {
+        margin-bottom: 50px;
+      }
+      .answer {
+        min-height: 30px;
+        margin-bottom: 30px;
+        .glyphicon {
+          font-size: 40px;
+        }
+        .upvote-wrapper {
+          cursor: pointer;
+        }
+        .upvote-count {
+          margin-top: 5px;
+          font-size: 25px;
+          text-align: center;
+        }
+        h3 {
+          margin-top: 0px;
+        }
+
+      }
+    }
+  }
+
+}
