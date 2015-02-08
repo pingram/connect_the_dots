@@ -14,3 +14,11 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$( document ).ready(function() {
+  $(".upvote-wrapper").click(function(e) {
+    var $upvoteEl = $(e.target).parent().find(".upvote-count");
+    var prevNum = parseInt($upvoteEl.text());
+    $upvoteEl.text(prevNum + 1);
+  })
+})
