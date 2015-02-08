@@ -16,3 +16,32 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+$orange: #ECA711;
+
+.nav {
+  padding: 10px 0px;
+  height: 120px;
+  .logo {
+    height: 90px;
+    width: auto;
+  }
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    // font-weight: bold;
+  }
+  border-bottom: solid 4px #C8C8C8;
+}
+
+.title {
+  padding: 30px 40px;
+  border-bottom: solid 4px #C8C8C8;
+  span {
+    color: $orange
+  }
+}
+
+.main {
+  margin-top: 30px;
+}
