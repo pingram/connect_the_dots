@@ -11,9 +11,9 @@
   }
 
   .main {
+    padding-bottom: 30px;
     .prerequisites {
       // border-top: solid 1px black;
-    border-right: solid 3px #C8C8C8;
     padding: 0 40px;
       h2 {
         margin-bottom: 50px;
@@ -24,6 +24,7 @@
     }
     .common-questions {
       padding: 0 40px;
+      border-left: solid 3px #C8C8C8;
 
       // border-top: solid 1px black;
       h2 {
