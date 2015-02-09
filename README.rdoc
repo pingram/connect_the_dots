@@ -1,28 +1,7 @@
-== README
+== Connect the Dots
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Connect the Dots is a teacher created resource to help new teachers find answers to the questions they have.
 
-Things you may want to cover:
+This is the prototype, which was built in 3 hours during [Startup Weekend EDU SF](http://sfedu.startupweekend.org/)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Richard Lee did all of the design, and @pingram did all of the development.
